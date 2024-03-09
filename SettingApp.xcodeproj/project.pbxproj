@@ -51,8 +51,8 @@
 		8DADDA1C2B9BF2D400820C6F /* SettingApp */ = {
 			isa = PBXGroup;
 			children = (
-				8DADDA1D2B9BF2D400820C6F /* SettingAppApp.swift */,
 				8DADDA1F2B9BF2D400820C6F /* ContentView.swift */,
+				8DADDA1D2B9BF2D400820C6F /* SettingAppApp.swift */,
 				8DADDA212B9BF2D400820C6F /* Assets.xcassets */,
 				8DADDA232B9BF2D400820C6F /* Preview Content */,
 			);
