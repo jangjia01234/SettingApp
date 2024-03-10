@@ -8,7 +8,6 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List {
-                   
                 Section {
                     HStack {
                         ZStack {
@@ -78,26 +77,7 @@ struct ContentView: View {
                         Text("Wi-Fi")
                             .padding(.leading, 5)
                         Spacer()
-                        Text("barbet_2F")
-                            .foregroundColor(.gray)
-                        Image(systemName: "chevron.right")
-                            .foregroundColor(.gray)
-                    }
-                    
-                    HStack {
-                        ZStack {
-                            RoundedRectangle(cornerRadius: 5)
-                                .fill(Color.blue)
-                                .frame(width: 30, height: 30)
-                            
-                            // bluetooth 로고로 변경 필요
-                            Image(systemName: "bolt.fill")
-                                .foregroundColor(.white)
-                        }
-                        Text("Bluetooth")
-                            .padding(.leading, 5)
-                        Spacer()
-                        Text("연결 안 됨")
+                        Text("public_2F")
                             .foregroundColor(.gray)
                         Image(systemName: "chevron.right")
                             .foregroundColor(.gray)
@@ -108,7 +88,6 @@ struct ContentView: View {
                             RoundedRectangle(cornerRadius: 5)
                                 .fill(Color.green)
                                 .frame(width: 30, height: 30)
-                            // celular 로고로 변경 필요
                             Image(systemName: "antenna.radiowaves.left.and.right")
                                 .foregroundColor(.white)
                         }
@@ -144,8 +123,7 @@ struct ContentView: View {
                             RoundedRectangle(cornerRadius: 5)
                                 .fill(Color.red)
                                 .frame(width: 30, height: 30)
-                            // bell + dot 로고로 변경 필요
-                            Image(systemName: "bell")
+                            Image(systemName: "bell.badge.fill")
                                 .foregroundColor(.white)
                         }
 
@@ -222,44 +200,43 @@ struct ContentView: View {
                     HStack {
                         ZStack {
                             RoundedRectangle(cornerRadius: 5)
-                                .fill(Color.gray)
-                                .frame(width: 30, height: 30)
-                            // 제어 센터 심볼로 변경 필요
-                            Image(systemName: "distribute.vertical.center")
-                                .foregroundColor(.white)
-                        }
-                        Text("제어 센터")
-                            .padding(.leading, 5)
-                        Spacer()
-                        Image(systemName: "chevron.right")
-                            .foregroundColor(.gray)
-                    }
-                    
-                    HStack {
-                        ZStack {
-                            RoundedRectangle(cornerRadius: 5)
-                                .fill(Color.blue)
-                                .frame(width: 30, height: 30)
-                            Image(systemName: "button.vertical.left.press")
-                                .foregroundColor(.white)
-                        }
-                        // 동작 버튼 심볼로 변경 필요
-                        Text("동작 버튼")
-                            .padding(.leading, 5)
-                        Spacer()
-                        Image(systemName: "chevron.right")
-                            .foregroundColor(.gray)
-                    }
-                    
-                    HStack {
-                        ZStack {
-                            RoundedRectangle(cornerRadius: 5)
                                 .fill(Color.blue)
                                 .frame(width: 30, height: 30)
                             Image(systemName: "sun.max.fill")
                                 .foregroundColor(.white)
                         }
                         Text("디스플레이 및 밝기")
+                            .padding(.leading, 5)
+                        Spacer()
+                        Image(systemName: "chevron.right")
+                            .foregroundColor(.gray)
+                    }
+                    
+                    HStack {
+                        ZStack {
+                            RoundedRectangle(cornerRadius: 5)
+                                .fill(Color.blue)
+                                .frame(width: 30, height: 30)
+                            
+                            Image(systemName: "accessibility")
+                                .foregroundColor(.white)
+                        }
+                        Text("손쉬운 사용")
+                            .padding(.leading, 5)
+                        Spacer()
+                        Image(systemName: "chevron.right")
+                            .foregroundColor(.gray)
+                    }
+                    
+                    HStack {
+                        ZStack {
+                            RoundedRectangle(cornerRadius: 5)
+                                .fill(Color.green)
+                                .frame(width: 30, height: 30)
+                            Image(systemName: "battery.100percent")
+                                .foregroundColor(.white)
+                        }
+                        Text("배터리")
                             .padding(.leading, 5)
                         Spacer()
                         Image(systemName: "chevron.right")
