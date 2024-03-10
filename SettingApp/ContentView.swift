@@ -8,15 +8,6 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List {
-//                ZStack(alignment: .leading) {
-//                    Image(systemName: "magnifyingglass")
-//                        .foregroundColor(.gray)
-//                    TextField("검색", text: $searchText)
-//                        .searchable(text: $searchText, prompt: "검색")
-//                        .padding(.leading, 30)
-//                        
-//                }
-//                .onTapGesture { hideKeyboard() }
                    
                 Section {
                     HStack {
