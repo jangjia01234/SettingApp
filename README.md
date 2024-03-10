@@ -5,4 +5,4 @@
 <br>
 
 ## Preview
-<img width="300" alt="스크린샷 2024-03-11 오전 12 18 41" src="https://github.com/jangjia01234/SettingApp/assets/71865277/3bb72956-1774-415e-b478-66dd31af468f">
+<img width="300" alt="스크린샷 2024-03-11 오전 2 11 13" src="https://github.com/jangjia01234/SettingApp/assets/71865277/737c71d4-0a2f-49e2-8b7b-a18c34d1bc84">
